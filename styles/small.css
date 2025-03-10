@@ -118,7 +118,6 @@ main {
 
 .certificate {
     display: grid;
-    float: column;
     text-align: center;
     justify-items: center;
     background: white;
