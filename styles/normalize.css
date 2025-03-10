@@ -1,12 +1,15 @@
 html {
     line-height: 1.15; 
     -webkit-text-size-adjust: 100%; 
+    
 }
 
 body {
     margin: 0 auto;
     width: 60%;
     padding: 0 2%;
+    font-family: montserrat;
+    font-size: 16px;
 }
 
 header {
