@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#nav-list {
+    display: none; /* Hide the menu by default */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333; /* Menu background */
+    position: absolute;
+    top: 100%; /* Position below the nav */
+    left: 0;
+    width: 100%; /* Full width */
+}
+
+#nav-list li {
+    display: block; /* Stack items vertically */
+}
+
+#nav-list a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block; /* Full width for links */
+}
+
+#nav-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px; /* Size of hamburger icon */
+    cursor: pointer;
+}
+
+/* Show the menu when active */
+#nav-list.show {
+    display: block; /* Show the menu */
+}
+
+nav ul li {
+    display: block; /* Stack items for small screens */
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.course-location {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+   
+}
+#course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.filters button {
+    background: black;
+    justify-items: center;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.course-tab {
+    display: flex;
+    margin: 10px;
+    padding: 10px 15px;
+    justify-items: center;
+    background-color: #f1f1f1; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 160px;
+}
+
+.certificate {
+    display: grid;
+    float: column;
+    text-align: center;
+    justify-items: center;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,110 @@
+/* Apply styles for larger screens */
+@media (min-width: 790px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: #2b4c6f;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+   
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0 0 0;
+        display: flex;
+        gap: 20px;
+    }
+    
+    nav ul li {
+        display: inline; 
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    
+    nav ul li a.active {
+        color: yellow;
+    }
+
+    #nav-toggle {
+        display: none; 
+    }
+
+    #nav-list {
+        display: flex; 
+        justify-content: space-evenly;
+    }
+
+    #nav-list li {
+        display: inline; 
+    }
+
+    
+    .certificate {
+        display: grid;
+        float: column;
+        text-align: center;
+        background: white;
+        padding: 20px;
+        margin: auto;
+        width: 80%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .course-location {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        background: white;
+        padding: 20px;
+        margin: auto;
+        width: 80%;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        margin-bottom: 40px;
+    
+    }
+
+    .course-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .filters button {
+        background: black;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .course-tab {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 15px;
+        background-color: #f1f1f1; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        width: 160px;
+    }
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course home page for WDD231">
+    <meta name="author" content="Your Name">
+    <title>Course Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/profile-pic.JPG" alt="Profile">
+        <h1>Tinashe A. Katenaire</h1>
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </header>
+    <nav>
+
+        <ul id="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="chamber.html">Chamber</a></li>
+            <li><a href="https://github.com/yourusername">GitHub Profile</a></li>
+            <li><a href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="home">Home</h1>
+        <section class="course-location">
+            <div class="card">
+                <h2>Course Work</h2>
+
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Location</h2>
+                <p>Victoria Falls, Zimbabwe</p>
+                <img src="images/zimbabwe-vicfalls-small.webp" alt="Victoria Falls">
+            </div>
+
+        </section>
+        <section class="certificate">
+            <h3>Web and Computer Programming Certificate</h3>
+            <div class="filters" id="filter-buttons">
+                <button id="all-courses">All Courses</button>
+                <button id="wdd-courses">WDD Courses</button>
+                <button id="cse-courses">CSE Courses</button>
+            </div>
+            <div id="course-cards"></div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Tinashe A. Katenaire | Zimbabwe</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
