@@ -107,3 +107,53 @@
     }
 }
 
+
+@media (max-width: 320px) {
+    header {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        background-color: #2b4c6f;
+        color: white;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .certificate, .course-location {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .course-cards {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .filters button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .course-tab {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
