@@ -71,6 +71,10 @@ function displayCourses(coursesToDisplay = courses) {
         courseTab.classList.add(course.completed ? 'completed' : 'not-completed');
         courseContainer.appendChild(courseTab);
     });
+
+    // Calculate total credits
+    const totalCredits = coursesToDisplay.reduce((sum, course) => sum + course.credits, 0);
+    document.getElementById('credit-count').textContent = totalCredits;
 }
 
 // Initial display of all courses
