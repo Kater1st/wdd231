@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "name": "Sahara Tours",
+      "address": "1 Desert Rd",
+      "phone": "223-555-1111",
+      "website": "https://saharatours.com",
+      "image": "sahara.png",
+      "membership": 3
+    },
+    {
+      "name": "Timbuktu Cafe",
+      "address": "2 Coffee St",
+      "phone": "223-555-2222",
+      "website": "https://timbuktucafe.com",
+      "image": "cafe.png",
+      "membership": 2
+    },
+    {
+      "name": "Nomad Art Gallery",
+      "address": "3 Art Blvd",
+      "phone": "223-555-3333",
+      "website": "https://nomadgallery.com",
+      "image": "gallery.png",
+      "membership": 3
+    },
+    {
+      "name": "Sahara Books",
+      "address": "4 Library Ln",
+      "phone": "223-555-4444",
+      "website": "https://saharabooks.com",
+      "image": "books.png",
+      "membership": 1
+    },
+    {
+      "name": "Desert Auto",
+      "address": "5 Motorway",
+      "phone": "223-555-5555",
+      "website": "https://desertauto.com",
+      "image": "auto.png",
+      "membership": 2
+    },
+    {
+      "name": "Timbuktu Clothing",
+      "address": "6 Fashion Ave",
+      "phone": "223-555-6666",
+      "website": "https://timbuktuclothing.com",
+      "image": "clothing.png",
+      "membership": 1
+    },
+    {
+      "name": "Mali Fitness",
+      "address": "7 Fit Way",
+      "phone": "223-555-7777",
+      "website": "https://malifitness.com",
+      "image": "fitness.png",
+      "membership": 2
+    }
+  ]
+}
