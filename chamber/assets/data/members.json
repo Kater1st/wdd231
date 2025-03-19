@@ -1,60 +1,69 @@
 {
   "members": [
     {
-      "name": "Sahara Tours",
-      "address": "1 Desert Rd",
+      "name": "Sangana Africa",
+      "address": "Office 10 Enterprise, Harare",
       "phone": "223-555-1111",
-      "website": "https://saharatours.com",
-      "image": "sahara.png",
+      "website": "https://sanganafrica.co.zw",
+      "image": "sangana.png",
       "membership": 3
     },
     {
-      "name": "Timbuktu Cafe",
-      "address": "2 Coffee St",
+      "name": "Shirishanu",
+      "address": "9 Buckinghum Rd,Harare",
       "phone": "223-555-2222",
-      "website": "https://timbuktucafe.com",
-      "image": "cafe.png",
+      "website": "https://shirishanu.com",
+      "image": "shirishanu.png",
       "membership": 2
     },
     {
-      "name": "Nomad Art Gallery",
-      "address": "3 Art Blvd",
+      "name": "Afrosoft Holdings",
+      "address": "no.3 Beverly Cou",
       "phone": "223-555-3333",
-      "website": "https://nomadgallery.com",
-      "image": "gallery.png",
+      "website": "afrosoft.co.zw",
+      "image": "afrosoft.png",
       "membership": 3
     },
     {
-      "name": "Sahara Books",
-      "address": "4 Library Ln",
+      "name": "Global HuntersTech",
+      "address": "7th floor, of Heritage House",
       "phone": "223-555-4444",
-      "website": "https://saharabooks.com",
-      "image": "books.png",
+      "website": "https://globalhunterstech.com",
+      "image": "global.png",
       "membership": 1
     },
     {
-      "name": "Desert Auto",
-      "address": "5 Motorway",
+      "name": "R. Davis & Co Zimbabwe",
+      "address": "12 Boshoff Dr, Harare",
       "phone": "223-555-5555",
-      "website": "https://desertauto.com",
-      "image": "auto.png",
+      "website": "http://www.rdavis.co.zw",
+      "image": "rdavis.png",
       "membership": 2
     },
     {
-      "name": "Timbuktu Clothing",
-      "address": "6 Fashion Ave",
+      "name": "Unilever Harare",
+      "address": "2 Stirling Rd, Harare",
       "phone": "223-555-6666",
       "website": "https://timbuktuclothing.com",
-      "image": "clothing.png",
+      "image": "uni.png",
       "membership": 1
     },
     {
-      "name": "Mali Fitness",
-      "address": "7 Fit Way",
+      "name": "Redecon ",
+      "address": "17 Phillips Ave, Harare",
       "phone": "223-555-7777",
-      "website": "https://malifitness.com",
-      "image": "fitness.png",
+      "website": "https://www.redecon.co.zw",
+      "image": "redecon.png",
+      "membership": 2
+    },
+    {
+      "name": "Leengate",
+      "address": "Leengate, 3 Prince Edward St, Harare",
+      "phone": "223-555-7777",
+      "website": "http://www.leengate.co.zw/about-us/references",
+      "image": "leen.png",
       "membership": 2
     }
+
   ]
 }

@@ -16,10 +16,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 header img {
     height: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    color: #2b4c6f;
+    margin-top: 35px;
 }
 
 nav ul {
@@ -36,6 +48,13 @@ nav a {
 main {
     padding: 2rem;
 }
+
+.view-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 
 .view-toggle button {
     margin-right: 1rem;
@@ -59,6 +78,7 @@ main {
     padding: 1rem;
     text-align: center;
     border-radius: 8px;
+    margin: 5px;
 }
 
 .member-card img {
@@ -74,4 +94,9 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+
+.list-view{
+    gap: 2rem;
 }
