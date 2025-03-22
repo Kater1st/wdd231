@@ -1,0 +1,103 @@
+@media (max-width: 965px) {
+    #nav-toggle {
+        display: block;
+        position: absolute;
+        right: 23%;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 10%; 
+        background-color: #2b4c6f; 
+        z-index: 1;
+        margin: 0 auto;
+        
+        
+    } 
+
+    nav ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0;
+        border-top: 1px solid #fff;
+    }
+
+    nav ul li:first-child {
+        border-top: none;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    nav.show {
+        display: flex;
+        margin:  0 auto;
+        right: 0;
+        left: 0;
+        width: 60%;
+    }
+}
+
+@media (max-width: 765px) {
+    footer {
+        display: grid;
+        background-color: #2b4c6f;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 720px) {
+    header {
+        display: flex;
+        justify-content: space-between; /* Align .logo to the far left and other contents to the far right */
+        align-items: center;
+    }
+
+    .logo h1 {
+        display: none;
+    }
+
+    .logo h1.short {
+        display: block;
+    }
+
+    header img {
+        height: 30px;
+    }
+
+    main {
+        margin: 0 auto; /* Center the main div */
+    }
+}
+
+@media (max-width: 516px){
+    main {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #members-container {
+        grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+        margin: 0 auto;
+        width: 128px;
+    }
+
+    .mermber-card {
+        width: 128px;
+    }
+}
+
+
+
