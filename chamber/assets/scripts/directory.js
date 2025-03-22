@@ -1,4 +1,3 @@
-
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
 
@@ -28,7 +27,7 @@ function displayMembers(members) {
         const card = document.createElement('div');
         card.classList.add('member-card');
         card.innerHTML = `
-            <img src="assets/images/${member.image}" alt="${member.name}">
+            <img src="assets/images/${member.image}" alt="${member.name}" loading="lazy">
             <h3>${member.name}</h3>
             <p>${member.address}</p>
             <p>Phone: ${member.phone}</p>
