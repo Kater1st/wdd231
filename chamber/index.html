@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Harare Chamber of Commerce directory page showcasing local businesses and members.">
+    <meta name="author" content="Tinashe Allan Katenaire">
+    <meta property="og:title" content="Harare Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kater1st.github.io/wdd231/chamber/assets/images/logo.webp">
+    <meta property="og:url" content="https://kater1st.github.io/wdd231/chamber/directory.htm">
+    <title>Harare Chamber of Commerce Member Home Page</title>
+    <link rel="icon" href="assets/images/favi.ico">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/small.css">
+    <link rel="stylesheet" href="assets/styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="assets/scripts/navigation.js" defer></script>
+    <script src="assets/scripts/directory.js" defer></script>
+    <script src="assets/scripts/weather.js" defer></script>
+    <script src="assets/scripts/forecast.js" defer></script>
+    <script src="assets/scripts/spotlight.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.webp" alt="Harare Chamber of Commerce logo">
+            <h1>Harare Chamber of Commerce</h1>
+            <h1 class="short">HCC</h1>
+        </div>
+
+        <nav id="nav-menu">
+            <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="assets/images/harare.jpg" alt="Harare Chamber of Commerce Hero Image" loading="lazy">
+            <div class="hero-text">
+                <h1>Welcome to the Harare Chamber of Commerce</h1>
+                <p>Empowering businesses and fostering community growth.</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <section class="info-grid">
+            <div class="events">
+                <h2>Events</h2>
+                <ul>
+                    <li>Business Networking Event - April 15</li>
+                    <li>Annual General Meeting - May 10</li>
+                    <li>Community Outreach Program - June 5</li>
+                </ul>
+            </div>
+            <div class="current-weather">
+                <h2>Current Weather</h2>
+                <div id="weather-data">
+                    <!-- Weather data will be dynamically loaded here -->
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <h2>Weather Forecast</h2>
+                <div id="forecast-data">
+                    <!-- Forecast data will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Spotlight Section -->
+        <section class="spotlight">
+            <h2>Business Spotlights</h2>
+            <div id="spotlight-container">
+                <!-- Spotlight cards will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p><strong>Harare Chamber of Commerce</strong></p>
+            <p>10 Rue De La Paix<br>Harare, Mali 999<br>info@timbuktucc.org<br>(223) 555-2300</p>
+        </div>
+        <div class="social-icons">
+            <a href="youtube.com"><i class='bx bxl-youtube media-icon'></i></a>
+            <a href="x.com"><i class='bx bxl-twitter media-icon'></i></a>
+            <a href="linkedin.com"><i class='bx bxl-linkedin-square media-icon'></i></a>
+        </div>
+        <p>WDD231 Class Project<br>👨🏽‍🎨Tinashe Allan Katenaire👨🏽‍🎨<br>&copy; <span id="year"></span> Harare
+            Chamber of Commerce<br>Last
+            Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
