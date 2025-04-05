@@ -208,3 +208,9 @@ footer {
     border-radius: 8px;
     background-color: #fff;
 }
+
+#nav-list a.active {
+    font-weight: bold;
+    color: white; /* Highlight color */
+    border-bottom: 2px solid white; /* Optional underline */
+}
