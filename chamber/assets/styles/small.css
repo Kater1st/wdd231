@@ -1,3 +1,10 @@
+@media (max-width: 1200px) {
+    .logo h1 {
+        
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 965px) {
     #nav-toggle {
         display: block;
@@ -64,6 +71,9 @@
         padding: 1rem;
         margin-top: 2rem;
     }
+    .cta-button {
+        font-size: 0.5rem;
+    }
 }
 
 @media (max-width: 720px) {
@@ -75,6 +85,7 @@
 
     .logo h1 {
         display: none;
+        font: 1rem;
     }
 
     .logo h1.short {
@@ -93,7 +104,6 @@
         font-size: 0.5em;
     }
 
-    C
 }
 
 @media (max-width: 516px){
@@ -111,7 +121,16 @@
     .mermber-card {
         width: 128px;
     }
+
+    .hero-heading {
+        font-size: 0.3em;
+    }
+
+    
 }
 
-
-
+@media (max-width: 450px){
+    .hero-heading {
+        font-size: 0.1em;
+    }
+}
