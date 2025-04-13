@@ -45,6 +45,14 @@
         left: 0;
         width: 60%;
     }
+
+    .hero-heading {
+        font-size: 0.7em;
+    }
+
+    .hero-p {
+        font-size: 0.5em;
+    }
 }
 
 @media (max-width: 765px) {
@@ -80,6 +88,12 @@
     main {
         margin: 0 auto; /* Center the main div */
     }
+
+    .hero-heading {
+        font-size: 0.5em;
+    }
+
+    C
 }
 
 @media (max-width: 516px){
