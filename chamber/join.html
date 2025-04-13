@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Harare Chamber of Commerce and grow your business.">
+    <meta name="author" content="Tinashe Allan Katenaire">
+    <title>Join the Chamber | Harare Chamber of Commerce</title>
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/small.css">
+    <link rel="stylesheet" href="assets/styles/larger.css">
+    <script src="assets/scripts/navigation.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.webp" alt="Harare Chamber of Commerce logo">
+            <h1>Harare Chamber of Commerce</h1>
+            <h1 class="short">HCC</h1>
+        </div>
+
+        <nav id="nav-menu">
+            <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Membership Application</h2>
+            <form action="thankyou.html" method="get">
+                <label>
+                    First Name:
+                    <input type="text" name="first-name" title="Enter your first name" autocomplete="given-name"
+                        required>
+                </label>
+                <label>
+                    Last Name:
+                    <input type="text" name="last-name" title="Enter your last name" autocomplete="family-name"
+                        required>
+                </label>
+                <label>
+                    Organizational Title:
+                    <input type="text" name="organization-title" title="Enter your organizational title"
+                        autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
+                </label>
+                <label>
+                    Email Address:
+                    <input type="email" name="email" title="Enter your email address" autocomplete="email"
+                        placeholder="example@email.com" required>
+                </label>
+                <label>
+                    Mobile Phone:
+                    <input type="tel" name="mobile" title="Enter your mobile phone number" autocomplete="tel" required>
+                </label>
+                <label>
+                    Business/Organization Name:
+                    <input type="text" name="organization" title="Enter your business/organization name"
+                        autocomplete="organization" required>
+                </label>
+                <label>
+                    Membership Level:
+                    <select name="membership-level" title="Select your membership level" required>
+                        <option value="np">NP Membership (Non-Profit)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label>
+                    Business/Organization Description:
+                    <textarea name="organization-description" title="Describe your business/organization"></textarea>
+                </label>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="Submit Application">
+            </form>
+        </section>
+
+        <section class="membership-cards">
+            <h2>Membership Levels</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>NP Membership</h3>
+                    <p>No fee for non-profit organizations.</p>
+                    <a href="#np-modal" class="modal-link">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Bronze Membership</h3>
+                    <p>Basic membership benefits.</p>
+                    <a href="#bronze-modal" class="modal-link">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Silver Membership</h3>
+                    <p>Includes additional benefits.</p>
+                    <a href="#silver-modal" class="modal-link">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Gold Membership</h3>
+                    <p>Premium benefits and advertising.</p>
+                    <a href="#gold-modal" class="modal-link">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Harare Chamber of Commerce. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Set the timestamp field with the current date and time
+        document.addEventListener("DOMContentLoaded", () => {
+            const timestampField = document.getElementById("timestamp");
+            timestampField.value = new Date().toISOString();
+        });
+    </script>
+</body>
+
+</html>

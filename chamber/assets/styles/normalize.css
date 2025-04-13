@@ -160,6 +160,13 @@ footer {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.cta {
+    position: relative;
 }
 
 /* Info Grid Section */
