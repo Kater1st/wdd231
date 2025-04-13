@@ -14,4 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
             link.classList.add("active");
         }
     });
+
+    const timestampField = document.getElementById("timestamp");
+    if (timestampField) {
+        timestampField.value = new Date().toISOString();
+    }
 });
