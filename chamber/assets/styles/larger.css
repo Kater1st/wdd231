@@ -79,7 +79,7 @@ form input[type="submit"]:hover {
 .card a {
     display: inline-block;
     background-color: #00cc66; /* Adjust to your secondary color */
-    color: #fff;
+    color: black;
     padding: 8px 12px;
     border-radius: 4px;
     text-decoration: none;
