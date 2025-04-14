@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for joining the Harare Chamber of Commerce.">
+    <meta name="author" content="Tinashe Allan Katenaire">
+    <meta property="og:title" content="Harare Chamber of Commerce Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kater1st.github.io/wdd231/chamber/assets/images/logo.webp">
+    <meta property="og:url" content="https://kater1st.github.io/wdd231/chamber/directory.htm">
+    <title>Thank You | Harare Chamber of Commerce</title>
+    <link rel="icon" href="assets/images/favi.ico">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/small.css">
+    <link rel="stylesheet" href="assets/styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.webp" alt="Harare Chamber of Commerce logo">
+            <h1>Harare Chamber of Commerce</h1>
+        </div>
+    </header>
+
+    <main class="thankyou-page">
+        <div class="container">
+            <h2>Thank You for Joining!</h2>
+            <p>We appreciate your interest in becoming a member of the Harare Chamber of Commerce. Below is the
+                information you submitted:</p>
+            <div class="form-data">
+                <p><strong>First Name:</strong> <span id="first-name"></span></p>
+                <p><strong>Last Name:</strong> <span id="last-name"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
+                <p><strong>Mobile Number:</strong> <span id="mobile"></span></p>
+                <p><strong>Business Name:</strong> <span id="organization"></span></p>
+                <p><strong>Submission Date:</strong> <span id="timestamp"></span></p>
+            </div>
+            <a href="index.html" class="button">Return to Home</a>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p><strong>Harare Chamber of Commerce</strong></p>
+            <p>10 Rue De La Paix<br>Harare, Mali 999<br>info@timbuktucc.org<br>(223) 555-2300</p>
+        </div>
+        <div class="social-icons">
+            <a href="youtube.com"><i class='bx bxl-youtube media-icon'></i></a>
+            <a href="x.com"><i class='bx bxl-twitter media-icon'></i></a>
+            <a href="linkedin.com"><i class='bx bxl-linkedin-square media-icon'></i></a>
+        </div>
+        <p>WDD231 Class Project<br>👨🏽‍🎨Tinashe Allan Katenaire👨🏽‍🎨<br>&copy; <span id="year"></span> Harare
+            Chamber of Commerce<br>Last
+            Modification: <span id="lastModified"></span></p>
+    </footer>
+
+    <script>
+        // Populate the form data from the URL parameters
+        document.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+            document.getElementById("first-name").textContent = params.get("first-name") || "N/A";
+            document.getElementById("last-name").textContent = params.get("last-name") || "N/A";
+            document.getElementById("email").textContent = params.get("email") || "N/A";
+            document.getElementById("mobile").textContent = params.get("mobile") || "N/A";
+            document.getElementById("organization").textContent = params.get("organization") || "N/A";
+            document.getElementById("timestamp").textContent = params.get("timestamp") || "N/A";
+
+            // Set the current year in the footer
+            document.getElementById("year").textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+
+</html>
