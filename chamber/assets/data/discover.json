@@ -1,0 +1,58 @@
+[
+    {
+        "title": "National Gallery of Zimbabwe",
+        "image": "assets/images/gallery.webp",
+        "address": "20 Julius Nyerere Way, Harare",
+        "description": "A hub for contemporary art and culture in Zimbabwe.",
+        "link": "#"
+    },
+    {
+        "title": "Mukuvisi Woodlands",
+        "image": "assets/images/mukuvisi.webp",
+        "address": "Hillside Rd, Harare",
+        "description": "A serene nature reserve offering walking trails and wildlife viewing.",
+        "link": "#"
+    },
+    {
+        "title": "Harare Gardens",
+        "image": "assets/images/gardens.webp",
+        "address": "Park Lane, Harare",
+        "description": "A beautiful public park in the heart of the city.",
+        "link": "#"
+    },
+    {
+        "title": "Chapungu Sculpture Park",
+        "image": "assets/images/chapungu.webp",
+        "address": "Doonside Rd, Harare",
+        "description": "A showcase of Zimbabwe's world-renowned stone sculptures.",
+        "link": "#"
+    },
+    {
+        "title": "Avondale Flea Market",
+        "image": "assets/images/avondale.webp",
+        "address": "Avondale Shopping Centre, Harare",
+        "description": "A vibrant market offering crafts, clothing, and local goods.",
+        "link": "#"
+    },
+    {
+        "title": "Lake Chivero Recreational Park",
+        "image": "assets/images/lake-chivero.webp",
+        "address": "Lake Chivero, Harare",
+        "description": "A popular spot for picnics, fishing, and wildlife viewing.",
+        "link": "#"
+    },
+    {
+        "title": "Borrowdale Racecourse",
+        "image": "assets/images/borrowdale.webp",
+        "address": "Borrowdale Rd, Harare",
+        "description": "The premier horse racing venue in Zimbabwe.",
+        "link": "#"
+    },
+    {
+        "title": "Domboshava Rocks",
+        "image": "assets/images/domboshava.webp",
+        "address": "Domboshava, Harare",
+        "description": "A historic site with ancient rock art and stunning views.",
+        "link": "#"
+    }
+]
