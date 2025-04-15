@@ -1,10 +1,11 @@
-/* Center the grid container */
+/* Grid container styles */
 .grid-container {
     display: grid;
     gap: 20px;
-    justify-content: center; /* Centers the grid horizontally */
-    align-items: center; /* Centers the grid vertically */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: start; /* Align items at the top */
     padding: 20px;
+    margin: 0 auto;
 }
 
 /* Responsive grid layout */
@@ -20,20 +21,68 @@
     }
 }
 
-/* Style the cards */
+/* Card styles */
 .card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background-color: #f4f4f4; /* Light background color */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
     padding: 15px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 300px; /* Restrict the card width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 300px; /* Restrict card width */
     margin: 0 auto; /* Center the card within its grid cell */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover effect */
 }
 
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Card title */
+.card h2 {
+    font-size: 1.5rem;
+    color: #0056b3; /* Primary color for titles */
+    margin-bottom: 10px;
+}
+
+/* Card image */
 .card img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 10px;
+}
+
+/* Card address */
+.card address {
+    font-style: normal;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+}
+
+/* Card description */
+.card p {
+    font-size: 1rem;
+    color: #666; /* Subtle text color */
+    margin-bottom: 15px;
+}
+
+/* Card button */
+.card button {
+    background-color: #ffcc00; /* Accent color */
+    color: #333; /* Dark text color for contrast */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.card button:hover {
+    background-color: #e6b800; /* Darker accent color on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
 }
