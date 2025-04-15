@@ -55,6 +55,18 @@
     margin-bottom: 10px;
 }
 
+/* Image hover effect for larger screens */
+@media (min-width: 641px) {
+    .card img {
+        transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+    .card img:hover {
+        transform: scale(1.1); /* Slightly zoom in the image */
+        filter: brightness(1.2); /* Brighten the image */
+    }
+}
+
 /* Card address */
 .card address {
     font-style: normal;
