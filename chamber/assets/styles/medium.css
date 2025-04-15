@@ -58,14 +58,14 @@
 /* Card address */
 .card address {
     font-style: normal;
-    color: #333; /* Dark text color */
+    color: black; /* Dark text color */
     margin-bottom: 10px;
 }
 
 /* Card description */
 .card p {
     font-size: 1rem;
-    color: #666; /* Subtle text color */
+    color: black; /* Subtle text color */
     margin-bottom: 15px;
 }
 
