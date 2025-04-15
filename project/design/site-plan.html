@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Plan for Mashcentral Basketball Association">
+    <meta name="author" content="Your Name">
+    <title>Site Plan | Mashcentral Basketball Association</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/site-style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mashcentral Basketball Association</h1>
+        <p>Site Plan | WDD 231</p>
+    </header>
+
+    <main>
+        <!-- Project Overview -->
+        <section>
+            <h2>Project Overview</h2>
+            <p>This website will serve as the official platform for the Mashcentral Basketball Association, a
+                community-driven basketball league. It will provide key information such as upcoming matches, league
+                standings, and contact options, with added functionality like live weather forecasts for outdoor games.
+            </p>
+        </section>
+
+        <!-- Site Purpose -->
+        <section>
+            <h2>Site Purpose</h2>
+            <p>The purpose of this site is to provide a hub for basketball players, fans, and volunteers in the
+                Mashcentral region. It will include dynamic features like match schedules, standings, and weather
+                forecasts to enhance the user experience.</p>
+        </section>
+
+        <!-- Scenarios -->
+        <section>
+            <h2>Scenarios</h2>
+            <ul>
+                <li>What are the upcoming matches and their locations?</li>
+                <li>How can I sign up as a player or volunteer?</li>
+                <li>What are the current league standings?</li>
+                <li>What is the weather forecast for the next game?</li>
+            </ul>
+        </section>
+
+        <!-- Color Scheme -->
+        <section class="color-scheme">
+            <h2>Color Scheme</h2>
+            <div>
+                <span style="background-color: #ee1e46;"></span>
+                <p>#f84b45: Primary .</p>
+            </div>
+            <div>
+                <span style="background-color: #222831;"></span>
+                <p>#2c3338: secondary.</p>
+            </div>
+            <div>
+                <span style="background-color: white;"></span>
+                <p>#333333: Accent-1.</p>
+            </div>
+            <div>
+                <span style="background-color:black;"></span>
+                <p>#ffcc00: Accent-2.</p>
+            </div>
+        </section>
+
+        <!-- Typography -->
+        <section>
+            <h2>Typography</h2>
+            <ul>
+                <li><strong>Roboto</strong>: Used for headings and body text.</li>
+                <li><strong>Open Sans</strong>: Used for secondary text and captions.</li>
+            </ul>
+        </section>
+
+        <!-- Wireframe -->
+        <section class="wireframe">
+            <h2>Wireframe</h2>
+            <p><strong>Mobile View:</strong></p>
+            <img src="images/MOBILE.png" alt="Wireframe for mobile view">
+            <p><strong>Desktop View:</strong></p>
+            <img src="images/DESKTOP.png" alt="Wireframe for desktop view">
+        </section>
+
+        <!-- Home Page Design -->
+        <section>
+            <h2>Home Page Design</h2>
+            <h3>Header</h3>
+            <ul>
+                <li><strong>Logo:</strong> A stylized basketball icon with the association's name.</li>
+                <li><strong>Navigation Menu:</strong> Home | Matches & Standings | Contact</li>
+            </ul>
+
+            <h3>Main</h3>
+            <ul>
+                <li><strong>Hero Section:</strong> A captivating image of a basketball court with players in action.
+                </li>
+                <li><strong>Tagline:</strong> A concise and memorable tagline, such as "Where Passion Meets the Court."
+                </li>
+                <li><strong>Brief Description:</strong> A brief overview of the website's purpose and benefits to users.
+                </li>
+                <li><strong>Key Features:</strong>
+                    <ul>
+                        <li>Upcoming matches and live weather forecasts.</li>
+                        <li>League standings displayed dynamically.</li>
+                        <li>Contact form for player and volunteer sign-ups.</li>
+                        <li>Interactive map showing game venues.</li>
+                    </ul>
+                </li>
+                <li><strong>Call to Action:</strong> A prominent "View Matches" button to encourage users to explore the
+                    schedule.</li>
+            </ul>
+
+            <h3>Footer</h3>
+            <ul>
+                <li><strong>Social Media Links:</strong> Icons for connecting with the association on social media
+                    platforms.</li>
+                <li><strong>Contact Information:</strong> Email address, phone number, and physical address.</li>
+                <li><strong>Legal Information:</strong> Terms of Service, Privacy Policy, and other legal documents.
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Mashcentral Basketball Association</p>
+    </footer>
+
+    <script>
+        // Set the current year in the footer
+        document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("year").textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+
+</html>
