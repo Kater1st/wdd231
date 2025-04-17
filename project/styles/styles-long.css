@@ -1,0 +1,112 @@
+@media screen and (max-width: 910px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        top: 50%;
+        left:50%;
+        width: 400px;
+        height: 550px;
+        z-index:1;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu-icon::before {
+        content: '☰';
+    }
+
+    .menu-icon.active::before {
+        content: '✕';
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: white;
+        align-items: center;
+        padding: 1rem 0;
+        z-index: 1000;
+        top: 87px;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin-left: auto;
+        text-align: right;
+        gap: 0rem;
+        margin-top: 0;
+        height: 166px;
+    }
+
+    nav li {
+        margin: 0.5rem 0;
+        text-align: center;
+        height: 166px;
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    .wel1 {
+        display: none;
+    }
+
+
+    
+    .team-vs {
+        
+        width: 400px;
+    }
+
+    .score2 {
+        flex-direction: column;
+        width: 40px;
+        
+    }
+
+    .media-icons {
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+        align-items: center;
+
+    }
+    
+    .media-icons img {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 664px) {
+    .hero{
+        height: 300px;
+    }
+
+    .wel{
+        font-size: 20px;
+    }
+
+    .wel2{
+        font-size: 30px;
+    }
+    
+    .text-white {
+        font-size: 18px;
+    }
+}
