@@ -757,3 +757,56 @@ footer {
     gap: 1px;
     margin-top: 15px;
 }
+
+/* Styling for the info-grid section */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+  padding: 20px;
+  background-color: #1e1e1e; /* Dark background */
+  color: #ffffff; /* White text */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.info-grid h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff3f57; /* Accent color for headings */
+  margin-bottom: 10px;
+}
+
+.info-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-grid ul li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  background-color: #333; /* Slightly lighter background for list items */
+  border-radius: 5px;
+  color: #fff;
+}
+
+.info-grid ul li:hover {
+  background-color: #ff3f57; /* Highlight on hover */
+  color: #000; /* Black text on hover */
+}
+
+.current-weather,
+.weather-forecast {
+  padding: 15px;
+  background-color: #2a2a2a; /* Slightly lighter background for weather sections */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+#weather-data,
+#forecast-data {
+  font-size: 1rem;
+  color: #aaa; /* Subtle text color for weather data */
+}
