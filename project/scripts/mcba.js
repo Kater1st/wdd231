@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Set the target date and time (December 20th, 2020, 9:30 0M GMT+0)
-    const targetDate = new Date("December 21 2024 16:30:00 GMT+2").getTime();
+    const targetDate = new Date("May 10 2025 16:30:00 GMT+2").getTime();
 
     // Function to update the countdown timer every second
     function updateCountdown() {
@@ -52,13 +52,13 @@ const blogs = [
       imageUrl: "https://media.istockphoto.com/id/898665168/photo/basketball-players-playing-outdoors-on-court.jpg?s=612x612&w=0&k=20&c=xObvmzzbWQF1-mGFuQzsD46ivVLGRX83CFkPgezHxUQ=",
       topic: "Bond Tigers introduces youngblood to the team",
       description: "Once again more young stars appear in the court as they made their first debue against flames",
-      date: "Dec 9, 2024",
+      date: "April 9, 2025",
     },
     {
       imageUrl: "https://media.istockphoto.com/id/1444386651/photo/tired-depression-or-sad-basketball-player-with-training-gear-after-game-fail-mistake-or.jpg?s=612x612&w=0&k=20&c=mpIb-4ne6ada08qmQAh7AOuUecQ3Ci1sK0ZD6TTJTgI=",
       topic: "Sox gets ejected after a technical foul",
       description: "After getting fruastrated by what he is calling a bad call, he kicked the ball making that tec foul the fifth",
-      date: "Dec 11, 2024",
+      date: "April 11, 2025",
     },
   ];
   
