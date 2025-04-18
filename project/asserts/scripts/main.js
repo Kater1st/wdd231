@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-    // Set the target date and time (December 20th, 2020, 9:30 0M GMT+0)
+    // Set the target date and time (May 10 2025 16:30:00 GMT+2)
     const targetDate = new Date("May 10 2025 16:30:00 GMT+2").getTime();
 
     // Function to update the countdown timer every second
