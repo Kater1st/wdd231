@@ -16,15 +16,118 @@ body {
     
 }
 
-
+/* Default navigation styles */
 nav {
-    display: flex;
+  display: none; /* Hide the menu by default */
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 60px; /* Adjust based on your header height */
+  right: 0;
+  width: 200px; /* Adjust width as needed */
+  z-index: 1000;
+}
+
+/* Show the menu when active */
+nav.active {
+  display: flex;
+}
+
+/* Default hamburger menu styles */
+.hamburger {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: none; /* Hide by default */
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px; /* Increased height for visibility */
+  width: 70px; /* Increased width for visibility */
+  z-index: 1001; /* Ensure it stays on top */
+}
+
+.menu-icon span {
+  display: block;
+  height: 8px; /* Increased thickness */
+  width: 100%;
+  background-color: #fff; /* White color for visibility */
+  border-radius: 4px; /* Slightly rounded edges */
+  transition: all 0.3s ease;
+}
+
+/* Rotate and transform the menu icon when active */
+.menu-icon.active span:nth-child(1) {
+  transform: rotate(45deg) translate(10px, 10px); /* Adjusted for larger size */
+}
+
+.menu-icon.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(10px, -10px); /* Adjusted for larger size */
+}
+
+/* Show the hamburger menu and hide the navigation links on smaller screens */
+@media (max-width: 912px) {
+  .hamburger {
+    display: flex; /* Show hamburger menu */
+  }
+
+  nav {
+    display: none; /* Hide navigation links by default */
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 70px; /* Adjust based on your header height */
+    right: 0;
+    width: 250px; /* Adjust width as needed */
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex; /* Show navigation links when active */
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    border-bottom: 1px solid #444;
+  }
+
+  nav ul li a {
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    background-color: #555;
+  }
+}
+
+/* Show navigation links by default on larger screens */
+@media (min-width: 913px) {
+  nav {
+    display: flex; /* Show navigation links */
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    position: static;
+    background-color: transparent;
+    width: auto;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .hamburger {
+    display: none; /* Hide hamburger menu */
+  }
 }
 
 li {
@@ -68,21 +171,6 @@ li a {
     margin-top: 5px;
 }
 
-.hamburger {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size:65px;
-    color: white;
-    margin-left: auto;
-}
-
-.menu-icon::before {
-    content: '☰';
-    
-}
-
 a h1{
     text-decoration: none; 
     color: black;
@@ -124,6 +212,7 @@ header{
 .header-con {
     display: flex;
     flex-direction: row;
+    height: 6rem;
     justify-content: flex-end;
     backdrop-filter: blur(8px);
 }
@@ -496,10 +585,6 @@ footer {
     color: #e63946;
 }
 
-
-nav.active {
-    z-index: 100;
-}
 
 .lea-tab {
     display: flex;
